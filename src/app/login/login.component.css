@@ -1,0 +1,45 @@
+main{
+    margin: 50px 90px 10px 180px;
+    position: fixed
+}
+.login{
+    padding: 25px;
+    background-color:grey;
+}
+.login-n{
+    text-align: left;
+    padding: 10px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+.login-form{
+    padding: 60px 60px 60px 60px;
+    background-color: white;
+    border: 1px solid black;
+}
+
+button{
+    padding: 10px 218px;
+    background-color: cadetblue;
+    color:white
+}
+
+.login-block{
+    background-color:gainsboro;
+    padding: 20px 20px 20px 20px;
+    margin-left: 200px;
+    margin-right: 200px
+}
+
+input#Username{
+    width:470px;
+}
+
+input#Password{
+    width:470px;
+}
+
+p{
+    text-align: center;
+}
