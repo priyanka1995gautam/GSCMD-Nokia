@@ -9,6 +9,9 @@ import { GSConfigurationComponent } from './gs-configuration/gs-configuration.co
 import { ManageRolesComponent } from './admin-utility/manage-roles/manage-roles.component';
 import { ManageUsersComponent } from './admin-utility/manage-users/manage-users.component';
 import { MapUserComponent } from './admin-utility/map-user/map-user.component';
+import { ManageProjectsComponent } from './account-utility/manage-projects/manage-projects.component';
+import { ManageNEsComponent } from './account-utility/manage-nes/manage-nes.component';
+import { ManageNEInstancesComponent } from './account-utility/manage-ne-instances/manage-ne-instances.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { MapUserComponent } from './admin-utility/map-user/map-user.component';
     GSConfigurationComponent,
     ManageRolesComponent,
     ManageUsersComponent,
-    MapUserComponent
+    MapUserComponent,
+    ManageProjectsComponent,
+    ManageNEsComponent,
+    ManageNEInstancesComponent
   ],
   imports: [
     BrowserModule
