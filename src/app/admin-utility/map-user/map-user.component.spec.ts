@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { GSConfigurationComponent } from './gs-configuration.component';
+import { MapUserComponent } from './map-user.component';
 
-describe('GSConfigurationComponent', () => {
-  let component: GSConfigurationComponent;
-  let fixture: ComponentFixture<GSConfigurationComponent>;
+describe('MapUserComponent', () => {
+  let component: MapUserComponent;
+  let fixture: ComponentFixture<MapUserComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ GSConfigurationComponent ]
+      declarations: [ MapUserComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(GSConfigurationComponent);
+    fixture = TestBed.createComponent(MapUserComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });

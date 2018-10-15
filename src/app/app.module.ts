@@ -6,6 +6,9 @@ import { LoginComponent } from './login/login.component';
 import { AdminUtilityComponent } from './admin-utility/admin-utility.component';
 import { AccountUtilityComponent } from './account-utility/account-utility.component';
 import { GSConfigurationComponent } from './gs-configuration/gs-configuration.component';
+import { ManageRolesComponent } from './admin-utility/manage-roles/manage-roles.component';
+import { ManageUsersComponent } from './admin-utility/manage-users/manage-users.component';
+import { MapUserComponent } from './admin-utility/map-user/map-user.component';
 
 @NgModule({
   declarations: [
@@ -13,7 +16,10 @@ import { GSConfigurationComponent } from './gs-configuration/gs-configuration.co
     LoginComponent,
     AdminUtilityComponent,
     AccountUtilityComponent,
-    GSConfigurationComponent
+    GSConfigurationComponent,
+    ManageRolesComponent,
+    ManageUsersComponent,
+    MapUserComponent
   ],
   imports: [
     BrowserModule
