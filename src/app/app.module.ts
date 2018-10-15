@@ -12,6 +12,10 @@ import { MapUserComponent } from './admin-utility/map-user/map-user.component';
 import { ManageProjectsComponent } from './account-utility/manage-projects/manage-projects.component';
 import { ManageNEsComponent } from './account-utility/manage-nes/manage-nes.component';
 import { ManageNEInstancesComponent } from './account-utility/manage-ne-instances/manage-ne-instances.component';
+import { ImportConfigurationComponent } from './gs-configuration/import-configuration/import-configuration.component';
+import { ManageConfigurationComponent } from './gs-configuration/manage-configuration/manage-configuration.component';
+import { ExportConfigurationComponent } from './gs-configuration/export-configuration/export-configuration.component';
+import { CompareConfigurationComponent } from './gs-configuration/compare-configuration/compare-configuration.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +29,11 @@ import { ManageNEInstancesComponent } from './account-utility/manage-ne-instance
     MapUserComponent,
     ManageProjectsComponent,
     ManageNEsComponent,
-    ManageNEInstancesComponent
+    ManageNEInstancesComponent,
+    ImportConfigurationComponent,
+    ManageConfigurationComponent,
+    ExportConfigurationComponent,
+    CompareConfigurationComponent
   ],
   imports: [
     BrowserModule
