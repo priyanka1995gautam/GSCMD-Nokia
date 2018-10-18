@@ -1,3 +1,35 @@
-<!-- <app-login></app-login> -->
-<app-gscm></app-gscm>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="sidenav">
+  <p><i class="fa fa-fw fa-envelope">GSCM</i></p>
+  <button class="dropdown-btn" (click)="Mainpage()"><i class="fa fa-fw fa-envelope"></i>Admin Utility
+    <i class="fa fa-caret-right"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="/manage-users">Manage Users</a>
+    <a href="/manage-roles">Manage Roles</a>
+    <a href="/map-user">Map Users & Roles</a>
+  </div>
+  <button class="dropdown-btn"><i class="fa fa-fw fa-envelope"></i>Account Utility
+    <i class="fa fa-caret-right"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="/manage-projects">Manage Projects</a>
+    <a href="/manage-nes">Manage NEs</a>
+    <a href="/manage-nes-instances">Manage NEs Instances</a>
+  </div>
+  <button class="dropdown-btn"><i class="fa fa-fw fa-envelope"></i>GS Configuration
+    <i class="fa fa-caret-right"></i>
+  </button>
+  <div class="dropdown-container">
+    <a href="/import-configuration">Import Configuration</a>
+    <a href="/manage-configuration">Manage Configuration</a>
+    <a href="/export-configuration">Export Configuration</a>
+    <a href="compare-configuration">Compare Configuration</a>
+  </div>
+</div>
+<div class="navbar">
+  <label>Account : {{accountholder}} </label><span class='user'><u>Welcome,Nick John</u><i class="fa fa-fw fa-user"></i></span>
+</div>
+
+<router-outlet></router-outlet>
 

@@ -1,5 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { RouterModule } from '@angular/router';
+import { AgGridModule } from 'ag-grid-angular';
 
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
@@ -32,7 +34,23 @@ import { GSCMComponent } from './gscm/gscm.component';
     GSCMComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    AgGridModule.withComponents([ManageUsersComponent]),
+    RouterModule.forRoot([
+      {
+        path:'gscm',component: GSCMComponent
+      },
+      {
+        path:'manage-users',component: ManageUsersComponent
+      },
+      {
+        path:'manage-roles',component: ManageRolesComponent
+      },
+      {
+        path:'map-users',component: MapUserComponent
+      },
+
+    ])
   ],
   providers: [],
   bootstrap: [AppComponent]

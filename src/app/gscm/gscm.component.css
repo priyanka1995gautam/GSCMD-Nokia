@@ -23,6 +23,7 @@
     text-align: left;
     cursor: pointer;
     outline: none;
+    font-size: 18px;
 }
 .user{
     text-align: right;

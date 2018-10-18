@@ -11,5 +11,4 @@ export class GSCMComponent implements OnInit {
 
   ngOnInit() {
   }
-
 }
