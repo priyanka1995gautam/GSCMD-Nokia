@@ -1,7 +1,9 @@
-main{
+.container{
     margin: 50px 90px 10px 180px;
     position: fixed
 }
+
+
 .login{
     padding: 25px;
     background-color:grey;
@@ -40,6 +42,6 @@ input#Password{
     width:470px;
 }
 
-p{
+/* p{
     text-align: center;
-}
+} */

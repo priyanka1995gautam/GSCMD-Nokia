@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { LoginService} from '../services/login.service';
 
 @Component({
   selector: 'app-gscm',
@@ -7,8 +8,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GSCMComponent implements OnInit {
 
-  constructor() { }
+public User:string;
+
+  constructor(private loginservice : LoginService) { }
 
   ngOnInit() {
+    this.User = this.loginservice.getDetails();
   }
 }
